@@ -3,6 +3,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter-style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* header-style */
 .header{
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
@@ -14,15 +20,19 @@ nav{
     align-items: center; 
    justify-content: space-between;
     margin: 0 150px;
+    padding-top: 50px;
     
+}
+.nav-btn{
+       padding-right: 150px;
 }
 .nav-logo{
   font-size: 34px;
+  
   color: rgb(78, 71, 255, 100);
+  font-weight:bolder;
 }
-.nav-btn{
-       
-}
+
 .btn-pramiry{
        font-size: 16px;
        font-weight: bold;
@@ -52,9 +62,10 @@ main{
 .action{
         display: flex;
         /* max-width: 1140px; */
-        margin: 116px 160px 116px 141px;
+        margin: 0 160px 116px 141px;
         justify-content:space-between;
         align-items: center;
+        padding-top: 115px;
 }
 .action-containt{
    margin: 62px 220px 62px 0px;
@@ -241,3 +252,51 @@ main{
 }
 
 /* footer-style */
+.footer{
+        text-align: center;
+        padding: 104px 455px;
+}
+.footer-title{
+           
+           font-size: 100px;
+           font-weight: bolder;
+           color: rgb(78, 71, 255, 100%); 
+           margin-bottom: 8px;
+           
+}
+.footer-description{
+           
+  color: rgb(137, 135, 161,100%);
+  margin-bottom: 20px;
+ 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 0 0 150px;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 48px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.color-nav{
+    color: #8987A1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
