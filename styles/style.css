@@ -253,11 +253,11 @@ main{
 
 /* footer-style */
 .footer{
-        text-align: center;
+        /* text-align: center; */
         padding: 104px 455px;
 }
 .footer-title{
-           
+           text-align: center;
            font-size: 100px;
            font-weight: bolder;
            color: rgb(78, 71, 255, 100%); 
@@ -265,7 +265,7 @@ main{
            
 }
 .footer-description{
-           
+   text-align: center;       
   color: rgb(137, 135, 161,100%);
   margin-bottom: 20px;
  
@@ -273,9 +273,12 @@ main{
 
 nav{
     display: flex;
-    align-items: center;
-    justify-content:space-between;
-    margin: 0 0 0 150px;
+    /* align-items: center; */
+    /* justify-content:space-between; */
+    /* margin: 0 0 0 150px; */
+    justify-content: center;
+    gap: 48px;
+   
 }
 nav ul{
     display: flex;
