@@ -24,7 +24,7 @@ nav{
     
 }
 .nav-btn{
-       padding-right: 150px;
+       /* padding-right: 150px; */
 }
 .nav-logo{
   font-size: 34px;
@@ -271,7 +271,7 @@ main{
  
 }
 
-nav{
+.footer-nav{
     display: flex;
     /* align-items: center; */
     /* justify-content:space-between; */
